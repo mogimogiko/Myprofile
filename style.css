@@ -19,5 +19,8 @@ PC用style
 スマホ用style
 ============ */
 @media screen and(max-width: 767px) {
-  
+  /* ヘッダー */
+  nav {
+    font-size: 34px;
+  }
 }
