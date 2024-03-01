@@ -1,0 +1,23 @@
+/* PC、スマホ共通スタイル */
+body {
+  font-family: "Noto Sans JP", sans-serif;
+}
+
+/* ======
+PC用style
+========= */
+@media screen and(min-width: 768px) {
+  /* ヘッダー */
+  nav {
+    font-size: 34px;
+  }
+  #title {
+    border: solid 1px #000;
+  }
+}
+/* =========
+スマホ用style
+============ */
+@media screen and(max-width: 767px) {
+  
+}
