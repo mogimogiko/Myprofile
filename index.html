@@ -1,40 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>MYPROFILE</title>
+  <title>My Profile</title>
+  <meta name="description" content="朝比奈一樹のプロフィールサイト">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header>
-    <nav>
-     <div id="title">MyProfile</div>
-     <div class="menu">About</div>
-     <div class="menu">Works</div>
-     <img src="images/main.png" alt="カメラ" id="camera">
-    </nav>
-  </header>
-  <main>
-   <article>
-     <section id="about">
-       <h1 class="midasi">About</h1>
-       <h2>Kazuki Asahina</h2>
-       <p>・25歳 長野県佐久市出身<br>
-          ・ソフトウェア業界でマーケティングに従事<br>
-          ・趣味化はカメラ、愛機はCanon
-        </p>
-      </section>
-     <section id="works">
-       <h1 class="midasi">Works</h1>
-       <p class="setumei">新潟に訪れた際に、日本海の雄大さを魅了されて撮影した1枚</p>
-       <p class="setumei">地元長野の木曽町から撮影した、冠雪した御嶽山</p>
-       <p class="setumei">京都で撮影した、明け方の古き良き日本の町並み</p>
-     </section>
-   </article>
-  </main>
-  <footer>
-    © MyProfile All rights Reserved.
-  </footer>
+  <nav>
+    <div id="midasi">MyProfile</div>
+    <div id="pabout">About</div>
+    <div id="pworks">Works</div>
+  </nav>
+  <article>
+    <img src="images/main.png" alt="camera">
+    <section id="about">
+      <h1>About</h1>
+      <img src="images/about.png" alt="朝比奈一樹" class="asahina">
+      <h2>Kazuki Asahina</h2>
+      <p class="setumei">・25歳長野県佐久市出身<br>
+        ・ソフトウェア業界でマーケティングに従事<br>
+        ・趣味はカメラ、愛機はcanon<br>
+        ・自然を撮影するのが好きで、海や山によく行く
+      </p>
+    </section>
+    <section class="works">
+      <h1>Works</h1>
+      <img src="images/works1.png" alt="新潟の海" class="niigata">
+      <p>新潟に訪れた際に、日本海の雄大さに魅了されて撮影した1枚</p>
+      <img src="images/works2.png" alt="御嶽山" class="nagano">
+      <p>地元長野の木曽町から撮影した、冠雪した御嶽山</p>
+      <img src="images/works3.png" alt="京都の町並み" class="kyouto">
+      <p>京都で撮影した、明け方の古き良き日本の町並み</p>
+    </section>
+    <footer>
+      © MyProfile. All rights reserved.
+    </footer>
+  </article>
 </body>
 </html>
