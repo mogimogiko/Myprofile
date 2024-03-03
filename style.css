@@ -1,16 +1,14 @@
 /* PC,スマホ共通スタイル */
 
 body {
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
 
-  // <uniquifier>: Use a unique and descriptive class name
-  // <weight>: Use a value from 100 to 900
-
-  .noto-sans jp-<uniquifier> {
-    font-family: "Noto Sans JP", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: <weight>;
-    font-style: normal;
-  }
+.hutoji {
+  font-weight: 600;
 }
 
 h1 {
@@ -29,20 +27,23 @@ pc用style
  /* nav */
  nav {   
    display: flex;
-   margin: 20px;
+   margin: 0 auto;
+   height: 60px;
+   width: 10px;
   }
  /* 見出し */
  #midasi {
   font-size: 34px;
-  margin: 0 50px 0 100px;
   border: solid 1px #000;
   padding: 10px;
  }
  /* about */
  #pabout {
   font-size: 34px;
-  margin: 0 50px 0 50px;
-
+ }
+ 
+ #pworks {
+  font-size: 34px;
  }
 
 }
