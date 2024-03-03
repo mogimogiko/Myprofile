@@ -11,24 +11,31 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav>
+  <nav class="hidari">
     <div id="midasi" class="hutoji">MyProfile</div>
-    <div id="pabout" class="hutoji">About</div>
-    <div id="pworks" class="hutoji">Works</div>
+   <div class="migi">
+     <div id="pabout" class="hutoji">
+      <a href="#about">About</a></div>
+     <div id="pworks" class="hutoji">
+      <a href="#works">Works</a></div>
+    </div>
   </nav>
   <article>
-    <img src="images/main.png" alt="camera">
+    <img src="images/main.png" alt="camera" class="camera">
     <section id="about">
       <h1>About</h1>
-      <img src="images/about.png" alt="朝比奈一樹" class="asahina">
-      <h2>Kazuki Asahina</h2>
-      <p class="setumei">・25歳長野県佐久市出身<br>
-        ・ソフトウェア業界でマーケティングに従事<br>
-        ・趣味はカメラ、愛機はcanon<br>
-        ・自然を撮影するのが好きで、海や山によく行く
-      </p>
+      <div class="flex">
+        <img src="images/about.png" alt="朝比奈一樹" class="asahina">
+        <div class="block">
+          <h2>Kazuki Asahina</h2>
+          <p class="setumei1">・25歳 長野県佐久市出身</p>
+          <p class="setumei1">・ソフトウェア業界でマーケティングに従事</p>
+          <p class="setumei1">・趣味はカメラ、愛機はcanon</p>
+          <p class="setumei1">・自然を撮影するのが好きで、海や山によく行く</p>
+        </div>  
+      </div>
     </section>
-    <section class="works">
+    <section id="works">
       <h1>Works</h1>
       <img src="images/works1.png" alt="新潟の海" class="niigata">
       <p>新潟に訪れた際に、日本海の雄大さに魅了されて撮影した1枚</p>
