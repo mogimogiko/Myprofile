@@ -84,7 +84,9 @@ pc用style
 /* img */
 .asahina {
   border-radius: 170px 170px 170px 170px;
-  margin: 0 50px 0 0;
+  margin: 20px 50px 0 0;
+  width: auto;
+  height: 200px;
 }
 
 /* 文章を画像の横に */
