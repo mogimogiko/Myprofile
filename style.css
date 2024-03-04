@@ -95,7 +95,10 @@ pc用style
 .block {
   display: block;
 }
-
+/* 文章 */
+.setumei1 {
+  margin: 10px;
+}
 
 
 }
