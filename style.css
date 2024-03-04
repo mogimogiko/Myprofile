@@ -106,7 +106,13 @@ pc用style
 #works {
   margin: 10px 0 0 0;
 }
-
+#works > h1 {
+  text-align: center;
+}
+/* niigata */
+.niigata{
+  margin: auto;
+}
 }
 /* =========
 携帯用style
