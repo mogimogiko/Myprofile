@@ -32,7 +32,7 @@ pc用style
  nav {
   display: flex;
   justify-content: space-between;
-  width: 5px;
+  width: 50%;
   height: auto;
   margin: 20px;
  }
@@ -47,7 +47,7 @@ pc用style
   display: flex;
   justify-content: center;
   height: auto;
-  width: auto;
+  width: 50%;
  }
  /* about */
  #pabout {
