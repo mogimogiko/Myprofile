@@ -93,10 +93,6 @@ pc用style
 .flex {
   display: flex;
 }
-/* 文章を縦並び */
-.block {
-  display: block;
-}
 /* 文章 */
 .setumei1 {
   margin: 10px;
