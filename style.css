@@ -30,11 +30,13 @@ pc用style
 @media screen and (min-width: 768px) {
  /* nav */
  nav {
+  position: relative;
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  width: 50%;
+  width: 60%;
   height: auto;
-  margin: 20px;
+  margin: 0 auto;
  }
  /* midasi */
  #midasi {
@@ -65,7 +67,12 @@ pc用style
   color: #000;
   text-decoration: none;
  }
-
+ /* article */
+ article {
+  position: relative;
+  width: 100%;
+  margin: 20px 0 0 0;
+ }
 /* cameraimg */
 .camera {
   width: 100%;
@@ -75,16 +82,18 @@ pc用style
 /* 見出し */
 /* section */
 #about {
-  margin: 10px;
-  
+  position: relative;
+  width: 100%;
+  top: 50px;
+  width: 100%;
 }
 #about > h1 {
   text-align: center;
 }
 /* img */
 .asahina {
-  border-radius: 170px 170px 170px 170px;
-  margin: 20px 50px 0 0;
+  border-radius: 200px 200px 200px 200px;
+  margin: 0 70px 0 200px;
   width: auto;
   height: 200px;
 }
@@ -95,19 +104,20 @@ pc用style
 }
 /* 文章 */
 .setumei1 {
-  margin: 10px;
+  position: relative;
+  margin: 0 auto;
 }
 /* works */
 /* 見出し */
 #works {
-  margin: 10px 0 0 0;
+  margin: 0 auto;
 }
 #works > h1 {
   text-align: center;
 }
 /* niigata */
 .niigata{
-  margin: auto;
+  
 }
 }
 /* =========
