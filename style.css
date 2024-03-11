@@ -83,42 +83,62 @@ pc用style
 /* section */
 #about {
   position: relative;
-  width: 100%;
-  top: 50px;
-  width: 100%;
+  width: 80%;
+  margin: 0 auto;
+  top: 20px;
 }
 #about > h1 {
   text-align: center;
 }
+/* imgと文章 */
+.bunsyou {
+  display: flex;
+  justify-content: center;
+}
 /* img */
 .asahina {
-  border-radius: 200px 200px 200px 200px;
-  margin: 0 70px 0 200px;
+  border-radius: 150px 150px 150px 150px;
   width: auto;
-  height: 200px;
+  height: 170px;
+}
+/* block1 */
+.block1 {
+  display: block;
+  margin: 10px 0 0 10px;
+}
+/* kazuki asahina */
+h2 {
+  margin: 0 0 5px 10px;
 }
 
-/* 文章を画像の横に */
-.flex {
-  display: flex;
-}
-/* 文章 */
-.setumei1 {
-  position: relative;
-  margin: 0 auto;
-}
 /* works */
-/* 見出し */
+/* section全体 */
 #works {
   margin: 0 auto;
+  width: 80%;
+
 }
+/* midasi */
 #works > h1 {
   text-align: center;
 }
-/* niigata */
-.niigata{
-  
+/* 画像を横並び、 */
+.bunsyou2 {
+  display: flex;
+  justify-content: center;
 }
+/* syoukai */
+.syoukai {
+  width: 358px;
+  margin: 0 10px;
+}
+/* footer */
+footer {
+  font-size: 18px;
+  text-align: center;
+  margin: 50px 0;
+}
+
 }
 /* =========
 携帯用style
