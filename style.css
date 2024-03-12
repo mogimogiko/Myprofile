@@ -31,7 +31,6 @@ pc用style
  /* nav */
  nav {
   position: relative;
-  width: 100%;
   display: flex;
   justify-content: space-between;
   width: 60%;
@@ -143,6 +142,38 @@ footer {
 /* =========
 携帯用style
 ============ */
-@media screen and(max-width: 767px) {
+@media screen and (max-width: 767px) {
+  /* ナビゲーション全体 */
+  nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between; 
+    margin: 0 auto;
+    font-size: 34px;
+  }
+  /* midasi */
+  #midasi {
+    float: left;
+    border: solid 1px #000;
+    padding: 2px 15px;
+  }
+  /* migi */
+  .migi {
+    display: flex;
+    float: right;
+  }
+  /* about */
+  #pabout {
+    margin: 0 10px 0 0;
+  }
+  #pworks {
+    font-size: 34px;
+    margin: 0 0 0 10px;
+   }
+ /* ページ内リンク */
+  a {
+   color: #000;
+   text-decoration: none;
+  }
   
 }
