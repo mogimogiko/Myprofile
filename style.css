@@ -85,6 +85,7 @@ pc用style
   width: 80%;
   margin: 0 auto;
   top: 20px;
+  font-size: 17px;
 }
 #about > h1 {
   text-align: center;
@@ -169,11 +170,69 @@ footer {
   #pworks {
     font-size: 34px;
     margin: 0 0 0 10px;
-   }
+  }
  /* ページ内リンク */
   a {
    color: #000;
    text-decoration: none;
   }
-  
+  /* article */
+  article {
+    position: relative;
+    width: 100%;
+    margin: 20px 0 0 0;
+  }
+  /* カメラ画像 */
+  .camera {
+    width: 100%;
+  }
+  /* main */
+  /* about */
+  #about {
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+  }
+  #about > h1 {
+    text-align: center;
+  }
+  /* imgと文章 */
+  .bunsyou {
+    display: flex;
+    justify-content: center;
+  }
+
+  /* img */
+  .asahina {
+    border-radius: 150px;
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+  }
+  /* block1 */
+  .block1 {
+    display: block;
+    margin: 0 0 0 10px;
+  }
+  /* kazuki asahina */
+  h2 {
+    margin: 0 0 5px 10px;
+  }
+
+  /* works */
+  /* section全体 */
+  #works {
+    margin: 0 auto;
+    width: 80%;
+  }
+  /* midasi */
+  #works > h1 {
+    text-align: center;
+  }
+  /* footer */
+footer {
+  font-size: 18px;
+  text-align: center;
+  margin: 50px 0;
+}
 }
