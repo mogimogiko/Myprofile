@@ -229,10 +229,19 @@ footer {
   #works > h1 {
     text-align: center;
   }
+  /* img */
+  .syoukai {
+    margin: 20px auto 20px auto;
+  }
+  /* p */
+  .bunsyou2 {
+    text-align: center;
+  }
+
   /* footer */
-footer {
-  font-size: 18px;
-  text-align: center;
-  margin: 50px 0;
-}
+  footer {
+    font-size: 18px;
+    text-align: center;
+    margin: 50px 0;
+  }
 }
