@@ -23,7 +23,6 @@ p {
   font-size: 18px;
 }
 
-
 /* =======
 pc用style
 ========== */
@@ -139,6 +138,19 @@ footer {
   margin: 50px 0;
 }
 
+/* TOPに戻るボタン */
+#top-btn {
+  position: fixed;
+  bottom: 38px;
+  right: 20px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  padding: 28px 24px;
+  border-radius: 50%;
+  display: none;
+}
 }
 /* =========
 携帯用style

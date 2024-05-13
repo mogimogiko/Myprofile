@@ -23,5 +23,18 @@ $(function () {
   });
 
   // 一定量スクロールしたらTOPボタン
-  
+  $(window).on('scroll', function () {
+    if (100 < $(this).scrollTop()) {
+      $('#top-btn').fadeIn();
+    } else {
+      $('#top-btn').fadeOut();
+    }
+  });
+
+  // ページ内リンクのスクロールをなめらかにする
+  // ♯で始まるアンカーをクリックしたときの処理
+  $('.migi a[href^="#"]').on('click', function () {
+    var className =$('a').attr('migi');
+    console.log(className);
+  })
 });
