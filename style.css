@@ -85,6 +85,7 @@ pc用style
   margin: 0 auto;
   top: 20px;
   font-size: 17px;
+  opacity: 0;
 }
 #about > h1 {
   text-align: center;
@@ -115,7 +116,7 @@ h2 {
 #works {
   margin: 0 auto;
   width: 80%;
-
+  opacity: 0;
 }
 /* midasi */
 #works > h1 {
