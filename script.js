@@ -66,5 +66,18 @@ $(function () {
   });
 
   // モーダル
-  
+  $('.modalimg').on('click', function () {
+    const imgSrc = $(this).children().attr('src');
+    $('.bigimg').children().attr('src',imgSrc);
+    $('.modal').fadeIn();
+    $('body,html').css('overflow-y', 'hidden');
+    return false;
+  });
+
+  $('#closebtn').on('click', function () {
+    $('.modal').fadeOut();
+    $('body,html').css('overflow-y', 'visible');
+    $('#closebtn').css('display', 'inline');
+    return false;
+  })
 });
