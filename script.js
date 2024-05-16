@@ -48,6 +48,23 @@ $(function () {
     $('html, body').animate({scrollTop: target}, 600);
   });
 
+
+  // 
   // sectionをスクロールしたらフェードインさせる
+  $(window).on('scroll', function () {
+    // 高さを取得
+    const winH = $(window).height();
+    const scroll = $(window).scrollTop();
+
+    // sectionの位置を判定しフェードイン
+    $('section').each(function () {
+      const tPosition = $(this).offset().top;
+      if (scroll > tPosition - winH + 100) {
+        $(this).addClass('fadein');
+      }
+    });
+  });
+
+  // モーダル
   
 });

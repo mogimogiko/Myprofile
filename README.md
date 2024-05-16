@@ -21,3 +21,24 @@
 
 ```
 - どういうことか全くわからなかった
+## 5．スクロールしてフェードインさせる
+
+```
+// sectionをスクロールしたらフェードインさせる
+  $(window).on('scroll', function () {
+    // 高さを取得
+    const winH = $(window).height();
+    const scroll = $(window).scrollTop();
+
+    // sectionの位置を判定しフェードイン
+    $('section').each(function () {
+      const tPosition = $(this).offset().top;
+      if (scroll > tPosition - winH + 100) {
+        $(this).addClass('fadein');
+      }
+    });
+  });
+
+  ```
+
+  - ほかの質問者を見て入力したのだが、codeの内容があまりよくわかっていない

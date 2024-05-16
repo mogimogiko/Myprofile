@@ -85,7 +85,6 @@ pc用style
   margin: 0 auto;
   top: 20px;
   font-size: 17px;
-  opacity: 0;
 }
 #about > h1 {
   text-align: center;
@@ -116,7 +115,6 @@ h2 {
 #works {
   margin: 0 auto;
   width: 80%;
-  opacity: 0;
 }
 /* midasi */
 #works > h1 {
@@ -151,6 +149,19 @@ footer {
   padding: 28px 24px;
   border-radius: 50%;
   display: none;
+}
+
+/* sectionの表示非表示 */
+section {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 1s, visibility 1s;
+}
+
+/* fadein */
+.fadein {
+  opacity: 1;
+  visibility: visible;
 }
 }
 /* =========
