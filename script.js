@@ -66,18 +66,25 @@ $(function () {
   });
 
   // モーダル
-  $('.modalimg').on('click', function () {
-    const imgSrc = $(this).children().attr('src');
-    $('.bigimg').children().attr('src',imgSrc);
+  $('.modalimg').on('click', function (event) {
+    event.preventDefault();
+    const imgSrc = $(this).children('img').attr('src');
+    $('.bigimg').attr('src',imgSrc);
     $('.modal').fadeIn();
-    $('body,html').css('overflow-y', 'hidden');
-    return false;
+    $('body,html').css('overflow', 'hidden');
   });
 
-  $('#closebtn').on('click', function () {
+  // 閉じるボタン
+  $('.close').on('click', function () {
     $('.modal').fadeOut();
     $('body,html').css('overflow-y', 'visible');
-    $('#closebtn').css('display', 'inline');
-    return false;
-  })
+  });
+
+  // モーダル外をクリックした場合
+  $(window).on('click', function () {
+    if ($(event.target).hasClass('modal')) {
+      $('.modal').fadeOut();
+      $('body,html').css('overflow', 'auto');
+    }
+  });
 });
