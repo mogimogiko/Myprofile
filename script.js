@@ -55,10 +55,12 @@ $(function () {
     // 高さを取得
     const winH = $(window).height();
     const scroll = $(window).scrollTop();
+    console.log({winH: winH, scroll: scroll});
 
     // sectionの位置を判定しフェードイン
     $('section').each(function () {
       const tPosition = $(this).offset().top;
+      console.log({tPosition: tPosition});
       if (scroll > tPosition - winH + 100) {
         $(this).addClass('fadein');
       }
